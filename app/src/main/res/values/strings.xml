@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">tryocr</string>
+    <string name="click">Click</string>
+    <string name="go">GO!</string>
+    <string name="info">INFO:</string>
+    <string name="Number" />
+    <string name="namelabel">Name :</string>
+    <string name="vehicle_number">Vehicle Number :</string>
+    <string name="addressLabel">Address :</string>
+    <string name="pin_code">Pin Code :</string>
+</resources>

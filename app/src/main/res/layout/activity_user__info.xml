@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/user__info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivani.tryocr.User_Info">
+
+    <TextView
+        android:id="@+id/info_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:text="@string/info"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/number_from_scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/NumberLabel"
+        android:layout_below="@+id/NumberLabel"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="@string/Number"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/NameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/info_label"
+        android:layout_below="@+id/info_label"
+        android:layout_marginTop="43dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/namelabel"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/name_from_db"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/NameLabel"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@+id/NameLabel"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/NumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/NameLabel"
+        android:layout_below="@+id/NameLabel"
+        android:layout_marginTop="33dp"
+        android:text="@string/vehicle_number"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/AddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/number_from_scanner"
+        android:layout_below="@+id/number_from_scanner"
+        android:layout_marginTop="24dp"
+        android:text="@string/addressLabel"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/AddressFromDb"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/AddressLabel"
+        android:layout_below="@+id/AddressLabel"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed"
+        android:textSize="24sp" />
+
+</RelativeLayout>
